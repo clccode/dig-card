@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    width: 550px;
+    height: 800px;
+    margin-top: 50px;
+    margin-left: 90px;
+    background: #1A1B21;
+}
+
+.container {
+    width: 300px;
+    color: #DCDCDC;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header styling */
+
+.header-photo {
+    width: 300px;
+    height: 320px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* Main styling */
+
+.main {
+    width: 300px;
+    height: 450px;
+}
+
+.main--title {
+    color: #F3BF99;
+    font-weight: 400;
+}
+
+.main > h4 {
+    margin-bottom: 1px;
+}
+
+.main--name,
+.main--title,
+.main--link {
+    text-align: center;
+}
+
+.main--link {
+    color: #DCDCDC
+}
+
+.main--about_para,
+.main--interests_para {
+    line-height: 1.5em;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+
+.email { 
+    display: flex;
+    justify-content: center;
+    background: #FFFFFF;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    width: 250px;
+    height: 35px;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+/* Footer styling */
+
+.footer {
+    background-color: #161619;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+.footer > img {
+    height: 30px;
+    width: 30px;
+}
